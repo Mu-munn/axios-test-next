@@ -16,14 +16,15 @@ export default function Home(props: { data: Article }) {
 
   return (
     <div>
-      <div key={data.title}>
+      {/* <a href='/api/auth/login'>Login</a> */}
+      {/* <div key={data.title}>
         <p>{data.title}</p>
         <p>{data.user.name}</p>
       </div>
 
       <Center w={"100px"} h={"100px"} bg={"red.300"}>
         sample
-      </Center>
+      </Center> */}
     </div>
   )
 }
