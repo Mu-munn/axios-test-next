@@ -1,4 +1,4 @@
-import userApi from "../src/api/user"
+import userApi from "../src/service/user"
 
 export type Article = {
   title: string

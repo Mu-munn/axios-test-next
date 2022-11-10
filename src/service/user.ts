@@ -1,11 +1,7 @@
 import axios from "axios"
+import { User } from "../types/types"
 
 const ENDPOINT_URL = "https://qiita.com/api/v2/items?query=$Mukai%20Yuuki"
-
-type User = {
-  id: string
-  name: string
-}
 
 const userApi = {
   async getAll() {
